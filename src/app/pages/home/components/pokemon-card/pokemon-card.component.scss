@@ -1,0 +1,234 @@
+.nes-container {
+  &.is_white {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nes-badge {
+  margin: 20px;
+  font-size: 12px;
+  cursor: default;
+}
+
+.fairy {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #ffc0cb !important;
+    box-shadow: 0 0.5em #ffc0cb, 0 -0.5em #ffc0cb, 0.5em 0 #ffc0cb,
+      -0.5em 0 #ffc0cb !important;
+  }
+}
+
+.dark {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #8b4513 !important;
+    box-shadow: 0 0.5em #8b4513, 0 -0.5em #8b4513, 0.5em 0 #8b4513,
+      -0.5em 0 #8b4513 !important;
+  }
+}
+
+.dragon {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #4b0082 !important;
+    box-shadow: 0 0.5em #4b0082, 0 -0.5em #4b0082, 0.5em 0 #4b0082,
+      -0.5em 0 #4b0082 !important;
+  }
+}
+
+.ice {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #e0ffff !important;
+    box-shadow: 0 0.5em #e0ffff, 0 -0.5em #e0ffff, 0.5em 0 #e0ffff,
+      -0.5em 0 #e0ffff !important;
+  }
+}
+
+.psychic {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #ff1493 !important;
+    box-shadow: 0 0.5em #ff1493, 0 -0.5em #ff1493, 0.5em 0 #ff1493,
+      -0.5em 0 #ff1493 !important;
+  }
+}
+
+.electric {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #ffff00 !important;
+    box-shadow: 0 0.5em #ffff00, 0 -0.5em #ffff00, 0.5em 0 #ffff00,
+      -0.5em 0 #ffff00 !important;
+  }
+}
+
+.grass {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #00ff00 !important;
+    box-shadow: 0 0.5em #00ff00, 0 -0.5em #00ff00, 0.5em 0 #00ff00,
+      -0.5em 0 #00ff00 !important;
+  }
+}
+
+.water {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #00bfff !important;
+    box-shadow: 0 0.5em #00bfff, 0 -0.5em #00bfff, 0.5em 0 #00bfff,
+      -0.5em 0 #00bfff !important;
+  }
+}
+
+.steel {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #708090 !important;
+    box-shadow: 0 0.5em #708090, 0 -0.5em #708090, 0.5em 0 #708090,
+      -0.5em 0 #708090 !important;
+  }
+}
+
+.ghost {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #7b68ee !important;
+    box-shadow: 0 0.5em #7b68ee, 0 -0.5em #7b68ee, 0.5em 0 #7b68ee,
+      -0.5em 0 #7b68ee !important;
+  }
+}
+
+.bug {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #90ee90 !important;
+    box-shadow: 0 0.5em #90ee90, 0 -0.5em #90ee90, 0.5em 0 #90ee90,
+      -0.5em 0 #90ee90 !important;
+  }
+}
+
+.rock {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #bc8f8f !important;
+    box-shadow: 0 0.5em #bc8f8f, 0 -0.5em #bc8f8f, 0.5em 0 #bc8f8f,
+      -0.5em 0 #bc8f8f !important;
+  }
+}
+
+.ground {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #f5deb3 !important;
+    box-shadow: 0 0.5em #f5deb3, 0 -0.5em #f5deb3, 0.5em 0 #f5deb3,
+      -0.5em 0 #f5deb3 !important;
+  }
+}
+
+.poison {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #9400d3 !important;
+    box-shadow: 0 0.5em #9400d3, 0 -0.5em #9400d3, 0.5em 0 #9400d3,
+      -0.5em 0 #9400d3 !important;
+  }
+}
+
+.flying {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #9370db !important;
+    box-shadow: 0 0.5em #9370db, 0 -0.5em #9370db, 0.5em 0 #9370db,
+      -0.5em 0 #9370db !important;
+  }
+}
+
+.normal {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #b8860b !important;
+    box-shadow: 0 0.5em #b8860b, 0 -0.5em #b8860b, 0.5em 0 #b8860b,
+      -0.5em 0 #b8860b !important;
+  }
+}
+
+.fire {
+  &.nes-badge span.is-primary:first-child {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #ff4500 !important;
+    box-shadow: 0 0.5em #ff4500, 0 -0.5em #ff4500, 0.5em 0 #ff4500,
+      -0.5em 0 #ff4500 !important;
+  }
+}

@@ -1,0 +1,14 @@
+<section style="margin-top: 20px;">
+  <div class="nes-container is-rounded is-dark with-title ajusts-wh">
+    <p class="title">Status</p>
+    <ng-container *ngFor="let statu of status; let i = index">
+      <span>{{ statu.name }}</span>
+      <progress
+        class="nes-progress"
+        [ngClass]="classes[i]"
+        [value]="statu.value"
+        max="100"
+      ></progress>
+    </ng-container>
+  </div>
+</section>

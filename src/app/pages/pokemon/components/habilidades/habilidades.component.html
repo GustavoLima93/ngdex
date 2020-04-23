@@ -1,0 +1,12 @@
+<section
+  class="description grid-template-rows ajusts-wh"
+  style="margin-top: 20px;"
+>
+  <div *ngFor="let habilidade of habilidades; let i = index">
+    <div class="nes-container is-rounded is-dark with-title ajusts-wh">
+      <p class="title">#{{ i + 1 }} Habilidade</p>
+      <p>{{ habilidade.nome }}</p>
+      <p>{{ habilidade.descricao }}</p>
+    </div>
+  </div>
+</section>

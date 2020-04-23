@@ -1,0 +1,15 @@
+<div class="nes-container is-rounded is-dark with-title">
+  <p class="title">#{{ pokemon.id }} {{ pokemon.nome }}</p>
+  <div class="nes-container is-rounded is_white with-title">
+    <img [src]="pokemon.img" alt="sprit" />
+  </div>
+  <div class="is-flex">
+    <a
+      class="nes-badge"
+      [ngClass]="tipo.nome"
+      *ngFor="let tipo of pokemon.tipo"
+    >
+      <span class="is-primary">{{ tipo.nome }}</span>
+    </a>
+  </div>
+</div>

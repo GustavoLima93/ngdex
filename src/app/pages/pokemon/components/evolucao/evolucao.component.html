@@ -1,0 +1,10 @@
+<section style="margin-top: 20px;">
+  <div class="nes-container is-rounded is-dark with-title ajusts-wh">
+    <p class="title">Evoluções</p>
+    <div class="evolutions">
+      <ng-container *ngFor="let evolucao of evolucoes">
+        <img [src]="evolucao.img" alt="Evolucao" />
+      </ng-container>
+    </div>
+  </div>
+</section>

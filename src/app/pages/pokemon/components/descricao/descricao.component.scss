@@ -1,0 +1,34 @@
+.details-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 20px;
+}
+
+.grid-template-rows {
+  grid-template-rows: 200px;
+}
+
+.sprites {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .sprites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: none;
+    width: none;
+  }
+
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    gap: 20px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,20 @@
+<section class="details-grid grid-template-rows">
+  <div>
+    <div class="nes-container is-rounded is-dark with-title ajusts-wh">
+      <p class="title">Sprites</p>
+      <div class="is-flex ajusts-wh">
+        <div class="sprites">
+          <ng-container *ngFor="let sprite of sprites">
+            <img [src]="sprite" alt="Pokemon Sprite" />
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="nes-container is-rounded is-dark with-title ajusts-wh">
+      <p class="title">Descrição</p>
+      <p>{{ descricao }}</p>
+    </div>
+  </div>
+</section>

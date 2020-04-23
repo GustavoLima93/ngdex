@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngdex"
+    }
+  },
+  "defaultProject": "ngdex",
+  "cli": {
+    "analytics": "b2b040d3-65ec-40b3-96d9-c9a8e1882ed6"
+  }
 }

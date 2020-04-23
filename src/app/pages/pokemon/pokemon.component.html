@@ -1,0 +1,10 @@
+<ng-container>
+  <h1 style="color: #ffffff;">#{{ pokemon?.id }} {{ pokemon?.nome }}</h1>
+  <app-descricao
+    [sprites]="pokemon?.sprites"
+    [descricao]="pokemon?.descricao"
+  ></app-descricao>
+  <app-evolucao [evolucoes]="pokemon?.evolutions"></app-evolucao>
+  <app-habilidades [habilidades]="pokemon?.habilidades"></app-habilidades>
+  <app-status [status]="pokemon?.status"></app-status>
+</ng-container>

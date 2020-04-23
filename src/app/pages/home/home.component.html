@@ -1,0 +1,13 @@
+<div>
+  <section class="grid grid-template-columns">
+    <app-pokemon-card
+      *ngFor="let pokemon of pokemons"
+      [pokemon]="pokemon"
+    ></app-pokemon-card>
+  </section>
+  <div class="is-flex" *ngIf="!ultimaPagina && pokemons?.length">
+    <a class="nes-btn loading-more" (click)="carregaPaginasDePokemon()"
+      >Carregar +</a
+    >
+  </div>
+</div>
