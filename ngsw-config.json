@@ -1,0 +1,60 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "pokemons",
+      "urls": [
+        "https://pokemon-apiv2.herokuapp.com/pokemons?page=1&itemsPerPage=9",
+        "https://pokemon-apiv2.herokuapp.com/pokemons?page=2&itemsPerPage=9",
+        "https://pokemon-apiv2.herokuapp.com/pokemons?page=3&itemsPerPage=9",
+        "https://pokemon-apiv2.herokuapp.com/pokemons?page=4&itemsPerPage=9",
+        "https://pokemon-apiv2.herokuapp.com/pokemons?page=5&itemsPerPage=9",
+        "https://pokemon-apiv2.herokuapp.com/pokemons?page=6&itemsPerPage=9"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "3d"
+      }
+    },
+    {
+      "name": "pokemons-imgs",
+      "urls": [
+        "https://raw.githubusercontent.com/GustavoLima93/pokemons-assets/master/**",
+        "https://raw.githubusercontent.com/GustavoLima93/pokemons-assets/master/**/*.*"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "3d"
+      }
+    }
+  ]
+}

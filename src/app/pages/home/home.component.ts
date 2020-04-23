@@ -39,4 +39,9 @@ export class HomeComponent implements OnInit {
         this.ultimaPagina = pokemons.last;
       });
   }
+
+  escutaEventoDeBusca($event: Pokemon[]): void {
+    this.ultimaPagina = true;
+    this.pokemons = [...$event];
+  }
 }
