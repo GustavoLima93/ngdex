@@ -9,7 +9,7 @@ export const config: ScullyConfig = {
       type: 'json',
       id: {
         url:
-          'https://pokemon-apiv2.herokuapp.com/pokemons?page=1&itemsPerPage=807',
+          'https://pokemon-apiv2.herokuapp.com/pokemons?page=1&itemsPerPage=300',
         resultsHandler: (response) => response.content,
         property: 'id',
       },
