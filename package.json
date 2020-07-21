@@ -13,7 +13,8 @@
     "build:ssr": "ng build --prod && ng run ngdex:server:production",
     "prerender": "ng run ngdex:prerender",
     "scully": "scully",
-    "scully:serve": "scully serve"
+    "scully:serve": "scully serve",
+    "prod": "ng build --prod && npm run scully -- --nw"
   },
   "private": true,
   "dependencies": {
