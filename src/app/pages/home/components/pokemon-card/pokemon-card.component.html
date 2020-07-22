@@ -7,12 +7,12 @@
     <img [src]="pokemon?.img" alt="sprit" />
   </div>
   <div class="is-flex">
-    <a
+    <div
       class="nes-badge"
       [ngClass]="tipo?.nome"
       *ngFor="let tipo of pokemon.tipo"
     >
       <span class="is-primary">{{ tipo?.nome }}</span>
-    </a>
+    </div>
   </div>
 </div>
